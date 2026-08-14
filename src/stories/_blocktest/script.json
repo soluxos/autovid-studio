@@ -1,0 +1,243 @@
+{
+  "title": "Block test",
+  "brand": "minard",
+  "surface": "paper",
+  "context": "Engine QA",
+  "status": "Block test",
+  "beats": [
+    {
+      "say": "These are the five busiest airports on Earth.",
+      "lines": [
+        "The 5 busiest",
+        "airports on Earth"
+      ],
+      "visual": {
+        "type": "ranking",
+        "title": "Busiest airports",
+        "unit": "million passengers",
+        "items": [
+          {
+            "name": "Atlanta",
+            "value": 105,
+            "suffix": "m"
+          },
+          {
+            "name": "Dubai",
+            "value": 87,
+            "suffix": "m"
+          },
+          {
+            "name": "Dallas",
+            "value": 82,
+            "suffix": "m"
+          },
+          {
+            "name": "Tokyo Haneda",
+            "value": 79,
+            "suffix": "m"
+          },
+          {
+            "name": "London Heathrow",
+            "value": 76,
+            "suffix": "m"
+          }
+        ],
+        "variant": 0
+      }
+    },
+    {
+      "say": "Nearly two thirds of your body is just water.",
+      "lines": [
+        "Your body is",
+        "mostly water"
+      ],
+      "visual": {
+        "type": "donut",
+        "value": 64,
+        "label": "of your body is water",
+        "rest": "everything else",
+        "variant": 1
+      }
+    },
+    {
+      "say": "Ninety two percent of resolutions fail within a year.",
+      "lines": [
+        "92% of resolutions",
+        "fail"
+      ],
+      "visual": {
+        "type": "bigpercent",
+        "value": 92,
+        "label": "of resolutions fail",
+        "variant": 0
+      }
+    },
+    {
+      "say": "Every bill becomes law in the same four steps.",
+      "lines": [
+        "Four steps",
+        "to a law"
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "How a bill becomes law",
+        "steps": [
+          "Drafted",
+          "Debated",
+          "Voted",
+          "Signed"
+        ],
+        "variant": 1
+      }
+    },
+    {
+      "say": "One blue whale weighs as much as twenty four elephants.",
+      "lines": [
+        "One whale,",
+        "24 elephants"
+      ],
+      "visual": {
+        "type": "scale",
+        "one": "1 blue whale",
+        "count": 24,
+        "unit": "elephants",
+        "variant": 0
+      }
+    },
+    {
+      "say": "Only one tenth of an iceberg shows above the surface.",
+      "lines": [
+        "Most of it",
+        "is hidden"
+      ],
+      "visual": {
+        "type": "iceberg",
+        "waterline": "sea level",
+        "above": {
+          "label": "visible above",
+          "value": 10,
+          "suffix": "%"
+        },
+        "below": {
+          "label": "hidden below",
+          "value": 90,
+          "suffix": "%"
+        },
+        "variant": 0
+      }
+    },
+    {
+      "say": "A freelancer's month: the fees add up, then the costs eat in.",
+      "lines": [
+        "Where the money",
+        "actually goes"
+      ],
+      "visual": {
+        "type": "waterfall",
+        "title": "One month",
+        "unit": "$",
+        "totalLabel": "Kept",
+        "data": [
+          {
+            "label": "Invoices",
+            "value": 5200
+          },
+          {
+            "label": "Retainer",
+            "value": 1800
+          },
+          {
+            "label": "Software",
+            "value": -300
+          },
+          {
+            "label": "Taxes",
+            "value": -1900
+          }
+        ],
+        "variant": 0
+      }
+    },
+    {
+      "say": "Three in every ten adults now skip breakfast entirely.",
+      "lines": [
+        "3 in 10",
+        "skip breakfast"
+      ],
+      "visual": {
+        "type": "dotstrip",
+        "total": 10,
+        "highlight": 3,
+        "label": "3 in 10 skip breakfast",
+        "variant": 0
+      }
+    },
+    {
+      "say": "Streaming rose, cable fell, and radio barely moved.",
+      "lines": [
+        "A decade",
+        "of listening"
+      ],
+      "visual": {
+        "type": "sparkrow",
+        "title": "A decade of listening",
+        "unit": "share",
+        "highlight": 0,
+        "rows": [
+          {
+            "label": "Streaming",
+            "values": [
+              12,
+              18,
+              29,
+              41,
+              58,
+              67
+            ],
+            "suffix": "%"
+          },
+          {
+            "label": "Cable",
+            "values": [
+              61,
+              55,
+              48,
+              40,
+              33,
+              28
+            ],
+            "suffix": "%"
+          },
+          {
+            "label": "Radio",
+            "values": [
+              30,
+              31,
+              29,
+              30,
+              28,
+              29
+            ],
+            "suffix": "%"
+          }
+        ],
+        "variant": 1
+      }
+    },
+    {
+      "say": "There is even a word for that feeling. Sonder.",
+      "lines": [
+        "There's a word",
+        "for that"
+      ],
+      "visual": {
+        "type": "definition",
+        "word": "sonder",
+        "phonetic": "/ˈsɒn.dər/",
+        "pos": "noun",
+        "def": "the realization that each random passerby is living a life as vivid and complex as your own",
+        "variant": 0
+      }
+    }
+  ]
+}

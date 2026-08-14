@@ -1,0 +1,152 @@
+{
+  "title": "The Longitude Prize",
+  "brand": "minard",
+  "surface": "blueprint",
+  "context": "1714 · The Longitude Prize",
+  "status": "Data story",
+  "beats": [
+    {
+      "say": "In seventeen oh seven, four Royal Navy ships sailed straight into the rocks off Scilly. Two thousand men drowned in a single night.",
+      "lines": [
+        "2,000 sailors died",
+        "in one night."
+      ],
+      "visual": {
+        "type": "image",
+        "footage": "stormy ocean huge waves dark",
+        "src": "stories/longitude/footage-0.mp4"
+      }
+    },
+    {
+      "say": "Not from war. From not knowing where they were.",
+      "lines": [
+        "They didn't know",
+        "where they were."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    },
+    {
+      "say": "Latitude was easy, the sun gives it away. Longitude, how far east or west you are, was invisible. Half of every map was guesswork.",
+      "lines": [
+        "Half the map",
+        "was guesswork."
+      ],
+      "visual": {
+        "type": "definition",
+        "word": "longitude",
+        "phonetic": "/ˈlɒn.dʒɪ.tjuːd/",
+        "pos": "noun",
+        "def": "how far east or west you are — the one thing no sailor could measure.",
+        "variant": 0
+      }
+    },
+    {
+      "say": "But longitude is secretly just time. Note noon where you are. Compare it with the clock back home. Every hour of difference is fifteen degrees of the globe.",
+      "lines": [
+        "Longitude is",
+        "secretly just time."
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "The trick",
+        "steps": [
+          "Note local noon",
+          "Compare with home time",
+          "Each hour = 15° of globe"
+        ],
+        "variant": 0
+      }
+    },
+    {
+      "say": "The catch: no clock on Earth could keep time on a rolling, salt soaked ship. So in seventeen fourteen, Parliament offered twenty thousand pounds, millions today, to anyone who could.",
+      "lines": [
+        "A £20,000 prize",
+        "for a sea clock."
+      ],
+      "visual": {
+        "type": "stat",
+        "value": 20000,
+        "prefix": "£",
+        "label": "the Longitude Prize, 1714"
+      }
+    },
+    {
+      "say": "The Royal Society expected an astronomer to win it. They got a self taught village carpenter named John Harrison.",
+      "lines": [
+        "The experts expected",
+        "an astronomer."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    },
+    {
+      "say": "Harrison spent thirty one years building four clocks, each stranger and smaller than the last.",
+      "lines": [
+        "One man. 31 years.",
+        "4 clocks."
+      ],
+      "visual": {
+        "type": "image",
+        "footage": "antique clock mechanism gears macro",
+        "src": "stories/longitude/footage-6.mp4"
+      }
+    },
+    {
+      "say": "The first was the size of a dresser. The last, after three decades of obsession, fit in a coat pocket.",
+      "lines": [
+        "From furniture",
+        "to pocket watch."
+      ],
+      "visual": {
+        "type": "timeline",
+        "title": "Harrison's clocks",
+        "events": [
+          {
+            "year": "1735",
+            "label": "H1 — sea trial"
+          },
+          {
+            "year": "1741",
+            "label": "H2 shelved"
+          },
+          {
+            "year": "1759",
+            "label": "H3 — 19 years in"
+          },
+          {
+            "year": "1761",
+            "label": "H4 — a watch"
+          }
+        ]
+      }
+    },
+    {
+      "say": "On its Atlantic trial, H4 drifted five seconds in eighty one days at sea. The astronomers' best method missed by miles.",
+      "lines": [
+        "5 seconds off,",
+        "after 81 days at sea."
+      ],
+      "visual": {
+        "type": "stat",
+        "value": 5,
+        "suffix": " sec",
+        "plain": true,
+        "label": "H4's error · 81 days at sea",
+        "circle": true
+      }
+    },
+    {
+      "say": "The committee stalled for decades before paying the carpenter. But he had already solved the ocean. Every GPS satellite still runs on his idea. Position is time.",
+      "lines": [
+        "Position is time.",
+        "It still is."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    }
+  ]
+}

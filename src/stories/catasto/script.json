@@ -1,0 +1,153 @@
+{
+  "title": "The Catasto",
+  "brand": "minard",
+  "context": "1427 · Florence",
+  "status": "Data story",
+  "beats": [
+    {
+      "say": "Everything you think you know about the Medici begins with a document from fourteen twenty seven. A spreadsheet.",
+      "lines": [
+        "The Medici story starts",
+        "with a spreadsheet."
+      ],
+      "visual": {
+        "type": "image",
+        "footage": "florence cathedral duomo aerial",
+        "src": "stories/catasto/footage-0.mp4"
+      }
+    },
+    {
+      "say": "Florence was losing a war with Milan, and the city was broke. So it did something no state had ever done.",
+      "lines": [
+        "Broke, at war,",
+        "out of options."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    },
+    {
+      "say": "It counted everything. Sixty thousand households. Every name, every age, every asset, every debt. Even the mules.",
+      "lines": [
+        "Florence counted",
+        "everything."
+      ],
+      "visual": {
+        "type": "stat",
+        "value": 60000,
+        "label": "households in the census"
+      }
+    },
+    {
+      "say": "They called it the catasto. Volume after volume of pure data, five centuries before the computer.",
+      "lines": [
+        "The catasto:",
+        "big data, 1427."
+      ],
+      "visual": {
+        "type": "image",
+        "footage": "old book manuscript handwriting closeup",
+        "src": "stories/catasto/footage-3.mp4"
+      }
+    },
+    {
+      "say": "And the data held a surprise. The richest man in Florence was not a Medici. Palla Strozzi declared one hundred and sixty three thousand florins. The Medici, seventy nine.",
+      "lines": [
+        "The Medici were",
+        "only #2."
+      ],
+      "visual": {
+        "type": "compare",
+        "accent": 0,
+        "items": [
+          {
+            "value": 163,
+            "suffix": "k fl",
+            "plain": true,
+            "label": "Palla Strozzi"
+          },
+          {
+            "value": 79,
+            "suffix": "k fl",
+            "plain": true,
+            "label": "the Medici"
+          }
+        ]
+      }
+    },
+    {
+      "say": "But being number one on a tax list makes you exactly one thing. A target.",
+      "lines": [
+        "#1 on a tax list",
+        "is a target."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    },
+    {
+      "say": "Strozzi paid the city's biggest tax bills, year after year. Then politics turned. By fourteen thirty four, Cosimo de Medici ran Florence, and Palla Strozzi was banished for life.",
+      "lines": [
+        "The list flipped",
+        "the city."
+      ],
+      "visual": {
+        "type": "timeline",
+        "title": "After the count",
+        "events": [
+          {
+            "year": "1427",
+            "label": "The great count"
+          },
+          {
+            "year": "1433",
+            "label": "Cosimo exiled"
+          },
+          {
+            "year": "1434",
+            "label": "Strozzi banished"
+          },
+          {
+            "year": "1462",
+            "label": "Dies in exile"
+          }
+        ]
+      }
+    },
+    {
+      "say": "And the census itself? The rich learned to hide their wealth, and the numbers rotted. Economists now have a name for that.",
+      "lines": [
+        "People learned to",
+        "game the data."
+      ],
+      "visual": {
+        "type": "quote",
+        "text": "When a measure becomes a target, it ceases to be a good measure.",
+        "attribution": "Goodhart's Law"
+      }
+    },
+    {
+      "say": "Cosimo had declared less, spent quietly, and bought loyalty instead of splendour. Number two on paper. Number one everywhere else.",
+      "lines": [
+        "He bought loyalty,",
+        "not splendour."
+      ],
+      "visual": {
+        "type": "image",
+        "src": "stories/catasto/cosimo.jpg",
+        "cutout": "stories/catasto/cosimo-cutout.png"
+      }
+    },
+    {
+      "say": "The richest man on the list died banished and broken. The runner up built a dynasty that ran Florence for three centuries. Data is not destiny.",
+      "lines": [
+        "Data is not",
+        "destiny."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    }
+  ],
+  "surface": "cutting-mat"
+}

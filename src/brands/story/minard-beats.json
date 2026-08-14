@@ -1,0 +1,17 @@
+[
+  { "lines": ["In 1812, Napoleon led", "422,000 men into Russia."], "say": "In eighteen twelve, Napoleon led four hundred and twenty two thousand men into Russia.", "image": "napoleon" },
+  { "lines": ["Almost none of them", "would come home."], "say": "Almost none of them would come home.", "image": "napoleon" },
+  { "lines": ["Here is that army,", "drawn as one line."], "say": "Here is that army, drawn as a single line.", "map": "intro" },
+  { "lines": ["Its width is", "the number of men."], "say": "Its width is the number of men.", "map": "intro", "annot": "width" },
+  { "lines": ["They crossed the border,", "marching east on Moscow."], "say": "They crossed the border, marching east on Moscow.", "map": "advance", "annot": "route" },
+  { "lines": ["And the line thins", "with every mile."], "say": "And the line thins with every mile.", "map": "advance" },
+  { "lines": ["By Moscow, three in four", "were already gone."], "say": "By the time they reached Moscow, three in four were already gone.", "map": "advance", "annot": "moscow" },
+  { "lines": ["Then winter came,", "and they turned back."], "say": "Then the winter came, and they turned back.", "image": "retreat" },
+  { "lines": ["This black line", "is the road home."], "say": "This black line is the road home.", "map": "retreat", "annot": "retreatband" },
+  { "lines": ["Below it,", "the temperature falls."], "say": "And below it, the temperature falls.", "map": "retreat", "annot": "temp" },
+  { "lines": ["Thirty below,", "deadlier than any battle."], "say": "Thirty degrees below zero. Deadlier than any battle.", "map": "retreat" },
+  { "lines": ["At the Berezina,", "the line nearly vanishes."], "say": "At the Berezina river, the line nearly vanishes.", "map": "retreat", "annot": "berezina" },
+  { "lines": ["Of 422,000,", "about 10,000 came home."], "say": "Of four hundred and twenty two thousand, only about ten thousand came home.", "map": "retreat" },
+  { "lines": ["A French engineer drew", "this in 1869."], "say": "A French engineer drew this entire story in a single chart, in eighteen sixty nine.", "map": "reveal", "annot": "reveal" },
+  { "lines": ["Still the finest", "graphic ever made."], "say": "It is still called the finest statistical graphic ever made.", "map": "reveal" }
+]

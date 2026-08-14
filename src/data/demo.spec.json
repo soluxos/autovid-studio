@@ -1,0 +1,390 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "brand": "editorial",
+  "words": [
+    {
+      "word": "Five",
+      "start": 0,
+      "end": 0.322
+    },
+    {
+      "word": "new",
+      "start": 0.35,
+      "end": 0.672
+    },
+    {
+      "word": "games",
+      "start": 0.7,
+      "end": 1.022
+    },
+    {
+      "word": "landed",
+      "start": 1.05,
+      "end": 1.372
+    },
+    {
+      "word": "this",
+      "start": 1.4,
+      "end": 1.722
+    },
+    {
+      "word": "week,",
+      "start": 1.75,
+      "end": 2.072
+    },
+    {
+      "word": "and",
+      "start": 2.1,
+      "end": 2.422
+    },
+    {
+      "word": "these",
+      "start": 2.45,
+      "end": 2.772
+    },
+    {
+      "word": "are",
+      "start": 2.8,
+      "end": 3.122
+    },
+    {
+      "word": "worth",
+      "start": 3.15,
+      "end": 3.472
+    },
+    {
+      "word": "your",
+      "start": 3.5,
+      "end": 3.822
+    },
+    {
+      "word": "weekend.",
+      "start": 3.85,
+      "end": 4.172
+    },
+    {
+      "word": "Topping",
+      "start": 4.2,
+      "end": 4.752
+    },
+    {
+      "word": "the",
+      "start": 4.8,
+      "end": 5.352
+    },
+    {
+      "word": "chart:",
+      "start": 5.4,
+      "end": 5.952
+    },
+    {
+      "word": "Ashfall",
+      "start": 6,
+      "end": 6.552
+    },
+    {
+      "word": "Vanguard,",
+      "start": 6.6,
+      "end": 7.152
+    },
+    {
+      "word": "then",
+      "start": 7.2,
+      "end": 7.752
+    },
+    {
+      "word": "Neon",
+      "start": 7.8,
+      "end": 8.352
+    },
+    {
+      "word": "Tide,",
+      "start": 8.4,
+      "end": 8.952
+    },
+    {
+      "word": "Hollow",
+      "start": 9,
+      "end": 9.552
+    },
+    {
+      "word": "Signal,",
+      "start": 9.6,
+      "end": 10.152
+    },
+    {
+      "word": "and",
+      "start": 10.2,
+      "end": 10.752
+    },
+    {
+      "word": "more.",
+      "start": 10.8,
+      "end": 11.352
+    },
+    {
+      "word": "Our",
+      "start": 11.4,
+      "end": 11.853
+    },
+    {
+      "word": "pick",
+      "start": 11.892,
+      "end": 12.345
+    },
+    {
+      "word": "is",
+      "start": 12.385,
+      "end": 12.838
+    },
+    {
+      "word": "Ashfall",
+      "start": 12.877,
+      "end": 13.33
+    },
+    {
+      "word": "Vanguard,",
+      "start": 13.369,
+      "end": 13.822
+    },
+    {
+      "word": "sitting",
+      "start": 13.862,
+      "end": 14.314
+    },
+    {
+      "word": "at",
+      "start": 14.354,
+      "end": 14.807
+    },
+    {
+      "word": "ninety",
+      "start": 14.846,
+      "end": 15.299
+    },
+    {
+      "word": "four",
+      "start": 15.338,
+      "end": 15.791
+    },
+    {
+      "word": "out",
+      "start": 15.831,
+      "end": 16.284
+    },
+    {
+      "word": "of",
+      "start": 16.323,
+      "end": 16.776
+    },
+    {
+      "word": "a",
+      "start": 16.815,
+      "end": 17.268
+    },
+    {
+      "word": "hundred.",
+      "start": 17.308,
+      "end": 17.761
+    },
+    {
+      "word": "Also",
+      "start": 17.8,
+      "end": 18.168
+    },
+    {
+      "word": "worth",
+      "start": 18.2,
+      "end": 18.568
+    },
+    {
+      "word": "a",
+      "start": 18.6,
+      "end": 18.968
+    },
+    {
+      "word": "look:",
+      "start": 19,
+      "end": 19.368
+    },
+    {
+      "word": "Neon",
+      "start": 19.4,
+      "end": 19.768
+    },
+    {
+      "word": "Tide,",
+      "start": 19.8,
+      "end": 20.168
+    },
+    {
+      "word": "a",
+      "start": 20.2,
+      "end": 20.568
+    },
+    {
+      "word": "roguelike",
+      "start": 20.6,
+      "end": 20.968
+    },
+    {
+      "word": "out",
+      "start": 21,
+      "end": 21.368
+    },
+    {
+      "word": "now.",
+      "start": 21.4,
+      "end": 21.768
+    },
+    {
+      "word": "That",
+      "start": 21.8,
+      "end": 22.066
+    },
+    {
+      "word": "is",
+      "start": 22.089,
+      "end": 22.355
+    },
+    {
+      "word": "the",
+      "start": 22.378,
+      "end": 22.644
+    },
+    {
+      "word": "week.",
+      "start": 22.667,
+      "end": 22.932
+    },
+    {
+      "word": "Follow",
+      "start": 22.956,
+      "end": 23.221
+    },
+    {
+      "word": "for",
+      "start": 23.244,
+      "end": 23.51
+    },
+    {
+      "word": "the",
+      "start": 23.533,
+      "end": 23.799
+    },
+    {
+      "word": "next",
+      "start": 23.822,
+      "end": 24.088
+    },
+    {
+      "word": "drop.",
+      "start": 24.111,
+      "end": 24.377
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s0",
+      "type": "intro",
+      "startSec": 0,
+      "endSec": 4.2,
+      "props": {
+        "kicker": "New this week // WK 32",
+        "title": "Five new games\nworth your",
+        "markerLine": "weekend.",
+        "sub": "Reviewed & ranked",
+        "pageNo": "01 / 05"
+      }
+    },
+    {
+      "id": "s1",
+      "type": "ranking",
+      "startSec": 4.2,
+      "endSec": 11.4,
+      "props": {
+        "heading": "Highest rated // WK 32",
+        "items": [
+          {
+            "rank": 1,
+            "name": "Ashfall Vanguard",
+            "meta": "PC · PS5 · $39",
+            "score": 94
+          },
+          {
+            "rank": 2,
+            "name": "Neon Tide",
+            "meta": "PC · Switch · $24",
+            "score": 88
+          },
+          {
+            "rank": 3,
+            "name": "Hollow Signal",
+            "meta": "Xbox · $29",
+            "score": 82
+          },
+          {
+            "rank": 4,
+            "name": "Verdant Reign",
+            "meta": "PS5 · $49",
+            "score": 77
+          },
+          {
+            "rank": 5,
+            "name": "Paper Lanterns",
+            "meta": "PC · $14",
+            "score": 71
+          }
+        ],
+        "pageNo": "02 / 05"
+      }
+    },
+    {
+      "id": "s2",
+      "type": "spotlight",
+      "startSec": 11.4,
+      "endSec": 17.8,
+      "props": {
+        "kicker": "Pick of the week",
+        "title": "Ashfall\nVanguard",
+        "score": 94,
+        "scoreLabel": "Aggregate",
+        "statPhrase": "ninety four",
+        "pills": [
+          "PC",
+          "PS5",
+          "$39"
+        ],
+        "look": "neon",
+        "pageNo": "03 / 05"
+      }
+    },
+    {
+      "id": "s3",
+      "type": "lowerThird",
+      "startSec": 17.8,
+      "endSec": 21.8,
+      "props": {
+        "kicker": "Also worth a look",
+        "name": "Neon Tide",
+        "meta": "roguelike · out now · PC · Switch",
+        "look": "ember",
+        "pageNo": "04 / 05"
+      }
+    },
+    {
+      "id": "s4",
+      "type": "outro",
+      "startSec": 21.8,
+      "endSec": 24.4,
+      "props": {
+        "title": "That's the",
+        "markerLine": "week.",
+        "cta": "Follow @launchpad",
+        "pageNo": "05 / 05"
+      }
+    }
+  ]
+}

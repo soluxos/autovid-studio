@@ -1,0 +1,208 @@
+{
+  "title": "The Milwaukee Failures",
+  "brand": "casefile",
+  "surface": "blueprint",
+  "mood": "tense",
+  "context": "1991 · Milwaukee",
+  "status": "Case file",
+  "beats": [
+    {
+      "say": "The Milwaukee police had Jeffrey Dahmer. Twice. And both times, they let him go.",
+      "lines": [
+        "Police had him twice.",
+        "They let him go."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    },
+    {
+      "say": "Milwaukee, Wisconsin. Between nineteen seventy eight and nineteen ninety one, seventeen young men went missing from these streets.",
+      "lines": [
+        "17 men went missing",
+        "from one city."
+      ],
+      "visual": {
+        "type": "globezoom",
+        "variant": 0,
+        "target": "Wisconsin",
+        "title": "Milwaukee, Wisconsin",
+        "pins": [
+          {
+            "place": "Milwaukee"
+          }
+        ],
+        "stats": [
+          {
+            "value": 17,
+            "label": "victims · 1978–1991",
+            "plain": true
+          }
+        ]
+      },
+      "bg": {
+        "footage": "Milwaukee Wisconsin skyline",
+        "src": "stories/dahmer/bg-1.jpg"
+      }
+    },
+    {
+      "say": "Seventeen lives. Most of them young, Black or brown, and gay. Men whose disappearances drew almost no headlines at all.",
+      "lines": [
+        "17 lives, and",
+        "almost no headlines."
+      ],
+      "visual": {
+        "type": "tally",
+        "value": 17,
+        "label": "lives taken",
+        "variant": 0
+      }
+    },
+    {
+      "say": "And the killing was not steady. It accelerated. One victim in nineteen seventy eight. Four in nineteen ninety. Eight in the final seven months.",
+      "lines": [
+        "It wasn't steady.",
+        "It accelerated."
+      ],
+      "visual": {
+        "type": "area",
+        "title": "Victims per year",
+        "points": [
+          {
+            "label": "1978",
+            "value": 1
+          },
+          {
+            "label": "1987",
+            "value": 1
+          },
+          {
+            "label": "1988",
+            "value": 2
+          },
+          {
+            "label": "1989",
+            "value": 1
+          },
+          {
+            "label": "1990",
+            "value": 4
+          },
+          {
+            "label": "1991",
+            "value": 8
+          }
+        ],
+        "variant": 1
+      }
+    },
+    {
+      "say": "Here is what the system already knew. A nineteen eighty nine conviction for assaulting a child. A sentence served on work release. Probation, with required monthly check ins, running through the deadliest years.",
+      "lines": [
+        "The system",
+        "already knew him."
+      ],
+      "visual": {
+        "type": "factcard",
+        "title": "On file before 1991",
+        "pairs": [
+          {
+            "label": "1989",
+            "value": "Convicted, child assault"
+          },
+          {
+            "label": "Sentence",
+            "value": "Work release"
+          },
+          {
+            "label": "Status",
+            "value": "On probation"
+          },
+          {
+            "label": "Check-ins",
+            "value": "Monthly, in person"
+          }
+        ],
+        "accent": 2,
+        "variant": 0
+      }
+    },
+    {
+      "say": "Then came the night of May twenty seventh, nineteen ninety one. The night this should have ended.",
+      "lines": [
+        "May 27, 1991.",
+        "The night it should",
+        "have ended."
+      ],
+      "visual": {
+        "type": "statement"
+      },
+      "bg": {
+        "footage": "rainy city street at night",
+        "src": "stories/dahmer/bg-5.jpg"
+      }
+    },
+    {
+      "say": "A fourteen year old boy escaped the apartment and reached the street. Neighbours called nine one one, and stayed with him. Officers arrived, believed Dahmer's story, and walked the boy back inside.",
+      "lines": [
+        "Police walked him",
+        "back inside."
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "That night",
+        "steps": [
+          "A 14-year-old escapes to the street",
+          "Neighbours call 911 and stay with him",
+          "Officers return him to the apartment"
+        ],
+        "variant": 1
+      }
+    },
+    {
+      "say": "The officers' own radio log survives. Listen to the words they chose.",
+      "lines": [
+        "Their own radio log",
+        "survives."
+      ],
+      "visual": {
+        "type": "quote",
+        "text": "Intoxicated Asian, naked male, was returned to his sober boyfriend.",
+        "attribution": "Milwaukee PD radio, May 27, 1991"
+      }
+    },
+    {
+      "say": "Four more men died after that night. It ended only in July, when a survivor escaped and led police back to the apartment.",
+      "lines": [
+        "4 more men died",
+        "after that night."
+      ],
+      "visual": {
+        "type": "clipping",
+        "kicker": "Milwaukee Sentinel · July 23, 1991",
+        "headline": "Suspect held as remains found in Oxford flats",
+        "body": "A 32-year-old chocolate factory worker was arrested late Monday after a man who escaped the apartment flagged a patrol car on North 25th Street. Investigators worked through the night.",
+        "variant": 0
+      },
+      "bg": {
+        "footage": "newspaper printing press",
+        "src": "stories/dahmer/bg-8.jpg"
+      }
+    },
+    {
+      "say": "Sixteen life sentences followed. The officers who returned the boy were reinstated, with back pay. The neighbours who called nine one one were never once called to testify that night was preventable. The verdict was for one man. The questions were for the city.",
+      "lines": [
+        "The verdict was for him.",
+        "The questions were",
+        "for the city."
+      ],
+      "visual": {
+        "type": "statement"
+      },
+      "bg": {
+        "footage": "courtroom interior",
+        "src": "stories/dahmer/bg-9.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1080' height='1920' viewBox='0 0 1080 1920'>
+  <defs>
+    <radialGradient id='pg' cx='42%' cy='34%' r='85%'>
+      <stop offset='0%' stop-color='#efe7d4'/>
+      <stop offset='62%' stop-color='#e2d5b8'/>
+      <stop offset='100%' stop-color='#c9b78f'/>
+    </radialGradient>
+    <radialGradient id='vg' cx='50%' cy='42%' r='75%'>
+      <stop offset='55%' stop-color='#000000' stop-opacity='0'/>
+      <stop offset='100%' stop-color='#3a2a12' stop-opacity='0.5'/>
+    </radialGradient>
+  </defs>
+  <rect width='1080' height='1920' fill='url(#pg)'/>
+  <line x1='-200' y1='0' x2='100' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='-130' y1='0' x2='170' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='-60' y1='0' x2='240' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='10' y1='0' x2='310' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='80' y1='0' x2='380' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='150' y1='0' x2='450' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='220' y1='0' x2='520' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='290' y1='0' x2='590' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='360' y1='0' x2='660' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='430' y1='0' x2='730' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='500' y1='0' x2='800' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='570' y1='0' x2='870' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='640' y1='0' x2='940' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='710' y1='0' x2='1010' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='780' y1='0' x2='1080' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='850' y1='0' x2='1150' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='920' y1='0' x2='1220' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='990' y1='0' x2='1290' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='1060' y1='0' x2='1360' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='1130' y1='0' x2='1430' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='1200' y1='0' x2='1500' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='1270' y1='0' x2='1570' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='1340' y1='0' x2='1640' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='1410' y1='0' x2='1710' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='1480' y1='0' x2='1780' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/><line x1='1550' y1='0' x2='1850' y2='1920' stroke='#3a2c17' stroke-width='1' opacity='0.05'/>
+  <circle cx='540' cy='806.4' r='120' fill='none' stroke='#c9b78f' stroke-width='2' opacity='0.2'/><circle cx='540' cy='806.4' r='200' fill='none' stroke='#c9b78f' stroke-width='2' opacity='0.18000000000000002'/><circle cx='540' cy='806.4' r='280' fill='none' stroke='#c9b78f' stroke-width='2' opacity='0.16'/><circle cx='540' cy='806.4' r='360' fill='none' stroke='#c9b78f' stroke-width='2' opacity='0.14'/><circle cx='540' cy='806.4' r='440' fill='none' stroke='#c9b78f' stroke-width='2' opacity='0.12000000000000001'/><circle cx='540' cy='806.4' r='520' fill='none' stroke='#c9b78f' stroke-width='2' opacity='0.1'/><circle cx='540' cy='806.4' r='600' fill='none' stroke='#c9b78f' stroke-width='2' opacity='0.08000000000000002'/>
+  <circle cx='540' cy='806.4' r='58' fill='#9a6b2f' opacity='0.18'/>
+  <text x='540' y='844.8' font-family='Georgia,serif' font-size='120' fill='#3a2c17' opacity='0.5' text-anchor='middle'>MCCCXXV</text>
+  <rect width='1080' height='1920' fill='url(#vg)'/>
+  <text x='540' y='1728' font-family='monospace' font-size='24' letter-spacing='6' fill='#3a2c17' opacity='0.42' text-anchor='middle'>PLACEHOLDER · MODENA 1325</text>
+  </svg>

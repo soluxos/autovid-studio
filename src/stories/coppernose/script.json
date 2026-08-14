@@ -1,0 +1,174 @@
+{
+  "title": "Old Coppernose",
+  "brand": "minard",
+  "context": "1544 · The Great Debasement",
+  "status": "Data story",
+  "beats": [
+    {
+      "say": "This is the most successful con man in English history. And his scam was hiding in every pocket in England.",
+      "lines": [
+        "History's most successful",
+        "con man."
+      ],
+      "visual": {
+        "type": "image",
+        "src": "stories/coppernose/henry.jpg",
+        "cutout": "stories/coppernose/henry-cutout.png"
+      }
+    },
+    {
+      "say": "Forget the six wives. Henry the Eighth's real scandal was the money itself.",
+      "lines": [
+        "Forget the wives.",
+        "Follow the money."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    },
+    {
+      "say": "For centuries, an English silver coin was exactly that. Nine hundred and twenty five parts pure silver in every thousand.",
+      "lines": [
+        "925 parts silver",
+        "in every 1,000."
+      ],
+      "visual": {
+        "type": "stat",
+        "value": 925,
+        "suffix": " ‰",
+        "label": "the sterling standard"
+      }
+    },
+    {
+      "say": "Then Henry went to war with France, and the bill came to two million pounds. More than ten times what the crown earned in a year.",
+      "lines": [
+        "The war cost 10x",
+        "his yearly income."
+      ],
+      "visual": {
+        "type": "compare",
+        "accent": 0,
+        "items": [
+          {
+            "value": 2,
+            "prefix": "£",
+            "suffix": "m",
+            "plain": true,
+            "label": "cost of his wars"
+          },
+          {
+            "value": 150,
+            "prefix": "£",
+            "suffix": "k",
+            "plain": true,
+            "label": "crown income, per year"
+          }
+        ]
+      }
+    },
+    {
+      "say": "So the Royal Mint began a quiet experiment. Same coins, same face value. Less and less silver.",
+      "lines": [
+        "Same coins.",
+        "Less silver."
+      ],
+      "visual": {
+        "type": "image",
+        "footage": "molten metal pouring foundry",
+        "src": "stories/coppernose/footage-4.mp4"
+      }
+    },
+    {
+      "say": "In fifteen forty four, half the silver was gone. The next year, two thirds. By fifteen forty six, an English shilling was three quarters copper.",
+      "lines": [
+        "75% of the silver,",
+        "gone."
+      ],
+      "visual": {
+        "type": "line",
+        "title": "Silver in the coin",
+        "unit": "%",
+        "points": [
+          {
+            "label": "1526",
+            "value": 92.5
+          },
+          {
+            "label": "1544",
+            "value": 50
+          },
+          {
+            "label": "1545",
+            "value": 33
+          },
+          {
+            "label": "1546",
+            "value": 25
+          }
+        ]
+      }
+    },
+    {
+      "say": "The mint washed each coin in silver to hide it. But the coating wore away exactly where thumbs rubbed most. The king's nose.",
+      "lines": [
+        "They called him",
+        "Old Coppernose."
+      ],
+      "visual": {
+        "type": "image",
+        "src": "stories/coppernose/testoon.jpg"
+      }
+    },
+    {
+      "say": "People noticed. Good coins vanished into hoards while the bad ones circulated. The rule we now call Gresham's Law.",
+      "lines": [
+        "Good coins vanished",
+        "overnight."
+      ],
+      "visual": {
+        "type": "quote",
+        "text": "Bad money drives out good.",
+        "attribution": "Gresham's Law"
+      }
+    },
+    {
+      "say": "Prices nearly doubled. Henry died rich. And it took Elizabeth the First another decade to melt down every last lie.",
+      "lines": [
+        "It took a decade",
+        "to fix."
+      ],
+      "visual": {
+        "type": "timeline",
+        "title": "The great debasement",
+        "events": [
+          {
+            "year": "1544",
+            "label": "The secret starts"
+          },
+          {
+            "year": "1546",
+            "label": "25% silver"
+          },
+          {
+            "year": "1551",
+            "label": "Prices double"
+          },
+          {
+            "year": "1560",
+            "label": "Elizabeth melts it all"
+          }
+        ]
+      }
+    },
+    {
+      "say": "One king. One secret. And a nose that told on him.",
+      "lines": [
+        "The nose",
+        "told on him."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    }
+  ]
+}

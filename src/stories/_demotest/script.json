@@ -1,0 +1,578 @@
+{
+  "title": "Demo block test",
+  "brand": "interface",
+  "surface": "cutting-mat",
+  "mood": "bright",
+  "context": "Engine QA",
+  "status": "Demo blocks",
+  "beats": [
+    {
+      "say": "Cursor path. A small far target, then a big close one.",
+      "lines": ["Watch the pointer", "do the work."],
+      "visual": {
+        "type": "cursorpath",
+        "title": "Modelled time to acquire a target on screen",
+        "unit": "milliseconds",
+        "variant": 0,
+        "label": "same hand, same screen, very different amount of aiming required",
+        "runs": [
+          { "label": "An eight pixel target, right across the screen", "targetSize": 8, "distance": 100, "ms": 1137 },
+          { "label": "A sixty four pixel target, close to the hand", "targetSize": 64, "distance": 58, "ms": 706 }
+        ]
+      }
+    },
+    {
+      "say": "Now weld the same targets to the screen edge.",
+      "lines": ["Weld it to the edge", "and you cannot miss."],
+      "visual": {
+        "type": "cursorpath",
+        "title": "The same two targets, welded to the screen edge",
+        "unit": "milliseconds",
+        "variant": 1,
+        "label": "the cursor cannot leave the screen, so the wall does the stopping for you",
+        "runs": [
+          { "label": "An eight pixel target flush against the edge", "targetSize": 8, "distance": 100, "ms": 720 },
+          { "label": "A sixty four pixel target flush against the edge", "targetSize": 64, "distance": 58, "ms": 640 }
+        ]
+      }
+    },
+    {
+      "say": "A phone, with the reach of one thumb drawn over it.",
+      "lines": ["Only a corner of it", "is comfortable."],
+      "visual": {
+        "type": "devicephone",
+        "title": "One-handed reach on a six point seven inch handset",
+        "variant": 0,
+        "appTitle": "Neighbourhood delivery scheduling",
+        "rows": [
+          "Reschedule tomorrow morning's grocery delivery window",
+          "Change the default building entrance instructions",
+          "Add a permanent note for the delivery driver"
+        ],
+        "nav": ["Home", "Search", "Saved items", "Your account"],
+        "highlight": 1,
+        "thumbZone": true,
+        "tapAt": 3,
+        "note": "everything above the arc needs a second hand or a shuffle of the grip"
+      }
+    },
+    {
+      "say": "The same phone, explained from a column beside it.",
+      "lines": ["Same device,", "different framing."],
+      "visual": {
+        "type": "devicephone",
+        "title": "Where the important controls actually belong",
+        "variant": 1,
+        "appTitle": "Neighbourhood delivery scheduling",
+        "rows": [
+          "Reschedule tomorrow morning's grocery delivery window",
+          "Change the default building entrance instructions"
+        ],
+        "nav": ["Home", "Search", "Saved items", "Your account"],
+        "highlight": 0,
+        "thumbZone": true,
+        "note": "Put the thing people tap forty times a day inside the arc, not in the far top corner."
+      }
+    },
+    {
+      "say": "A desktop window, flush to the edge of the screen.",
+      "lines": ["The corner is the", "easiest pixel there is."],
+      "visual": {
+        "type": "devicebrowser",
+        "title": "A maximised window shares the screen's own edges",
+        "variant": 0,
+        "url": "https://example.internal/settings/notifications/delivery",
+        "menu": ["File", "Edit", "View", "History"],
+        "highlight": "corner",
+        "note": "flush to the edge, the top-left corner is effectively infinite in both directions"
+      }
+    },
+    {
+      "say": "The same window, floating inside the screen instead.",
+      "lines": ["Float it and you", "lose the edge."],
+      "visual": {
+        "type": "devicebrowser",
+        "title": "A floating window gives every edge back to the desktop",
+        "variant": 1,
+        "url": "https://example.internal/settings/notifications/delivery",
+        "menu": ["File", "Edit", "View", "History"],
+        "highlight": "menu",
+        "note": "now the menu has a ceiling of about twenty four pixels and you have to stop on it"
+      }
+    },
+    {
+      "say": "A wireframe panel, with one row called out.",
+      "lines": ["Point at the thing", "you are talking about."],
+      "visual": {
+        "type": "uimock",
+        "title": "Notification preferences, as most teams first draw them",
+        "variant": 0,
+        "panel": "Notification preferences and delivery",
+        "rows": [
+          "Email me a summary every weekday morning",
+          "Send a push notification for direct mentions only",
+          "Text me when a delivery driver is five minutes away"
+        ],
+        "buttons": ["Save preferences", "Cancel"],
+        "highlight": 2,
+        "annotate": "the only row anybody in research actually asked for"
+      }
+    },
+    {
+      "say": "The same panel, with the callout underneath it.",
+      "lines": ["Callout below,", "leader line down."],
+      "visual": {
+        "type": "uimock",
+        "title": "The same panel, annotated from below",
+        "variant": 1,
+        "panel": "Notification preferences and delivery",
+        "rows": [
+          "Email me a summary every weekday morning",
+          "Send a push notification for direct mentions only",
+          "Text me when a delivery driver is five minutes away"
+        ],
+        "buttons": ["Save preferences", "Cancel"],
+        "highlight": 0,
+        "annotate": "the row that gets switched off within a week of somebody joining"
+      }
+    },
+    {
+      "say": "Before and after, drawn side by side.",
+      "lines": ["Cramped and off-grid,", "then aligned."],
+      "visual": {
+        "type": "beforeafter",
+        "title": "The same screen, redrawn on a grid with real targets",
+        "variant": 0,
+        "before": {
+          "label": "Before the rebuild",
+          "caption": "Three tiny buttons crowded together with nothing lining up on any axis."
+        },
+        "after": {
+          "label": "After the rebuild",
+          "caption": "One primary action at full thumb size, everything landing on the same grid."
+        }
+      }
+    },
+    {
+      "say": "The same comparison, wiped across instead.",
+      "lines": ["Wipe it across", "and watch it fix."],
+      "visual": {
+        "type": "beforeafter",
+        "title": "One frame, wiping from the old layout to the new",
+        "variant": 1,
+        "before": { "label": "Old layout", "caption": "Everything jostling for room, nothing aligned." },
+        "after": { "label": "Rebuilt layout", "caption": "One clear primary action, on a grid you can feel." }
+      }
+    },
+    {
+      "say": "One button, drawn in every state it can be in.",
+      "lines": ["Default, hover,", "active, disabled."],
+      "visual": {
+        "type": "statechips",
+        "title": "Every state a primary button has to be designed for",
+        "variant": 0,
+        "label": "Confirm delivery window",
+        "states": ["Default resting state", "Hover", "Active / pressed", "Disabled"],
+        "note": "half of these never get drawn until somebody files a bug about them"
+      }
+    },
+    {
+      "say": "The same states, two by two, named beside each.",
+      "lines": ["Two by two,", "names beside."],
+      "visual": {
+        "type": "statechips",
+        "title": "The same four states, laid out two by two",
+        "variant": 1,
+        "label": "Confirm delivery window",
+        "states": ["Default resting state", "Hover, cursor over it", "Active, mid press", "Disabled, no action"]
+      }
+    },
+    {
+      "say": "A form field types itself, fails, then passes.",
+      "lines": ["Fail first,", "then pass."],
+      "visual": {
+        "type": "formdemo",
+        "title": "Inline validation, staged the way a person experiences it",
+        "variant": 0,
+        "field": "Work email address for delivery notifications",
+        "text": "callum@example",
+        "fixed": "callum@example.com",
+        "error": "That address is missing everything after the at sign — try again with a full domain.",
+        "success": "Looks good. We will send delivery notifications to this address.",
+        "submit": "Continue"
+      }
+    },
+    {
+      "say": "The same field, validated inline beside the box.",
+      "lines": ["Message beside", "the field."],
+      "visual": {
+        "type": "formdemo",
+        "title": "The same field, validated inline",
+        "variant": 1,
+        "field": "Work email address for delivery notifications",
+        "text": "callum@example",
+        "fixed": "callum@example.com",
+        "error": "Missing a domain after the at sign — add one and we will try again.",
+        "success": "Verified. Notifications will go to this address from now on."
+      }
+    },
+    {
+      "say": "A menu welded to the top edge, and a cursor thrown at it.",
+      "lines": ["Throw it. The edge", "catches it."],
+      "visual": {
+        "type": "menudemo",
+        "title": "A menu bar welded to the top edge of the screen",
+        "variant": 0,
+        "items": ["File", "Edit", "View", "Window", "Help"],
+        "target": 2,
+        "note": "the throw overshoots by a hundred pixels and the screen edge absorbs every one of them"
+      }
+    },
+    {
+      "say": "The same throw, at a menu floating inside a window.",
+      "lines": ["Same throw.", "Now you overshoot."],
+      "visual": {
+        "type": "menudemo",
+        "title": "The same menu, floating inside its own window",
+        "variant": 1,
+        "items": ["File", "Edit", "View", "Window", "Help"],
+        "target": 2,
+        "note": "the overshoot sails clean past the bar and has to be corrected back down again"
+      }
+    },
+    {
+      "say": "Reach, drawn as a soft field over a phone.",
+      "lines": ["Hot at the thumb,", "cold at the far corner."],
+      "visual": {
+        "type": "heatzone",
+        "title": "Comfortable one-thumb reach on a large handset",
+        "variant": 0,
+        "hot": "effortless",
+        "cold": "a real stretch",
+        "label": "measured from the natural pivot of the thumb at the bottom-right corner"
+      }
+    },
+    {
+      "say": "Attention on a page, hottest at the top left.",
+      "lines": ["Attention pools", "in the top left."],
+      "visual": {
+        "type": "heatzone",
+        "title": "Where first-visit attention actually pools on a page",
+        "variant": 1,
+        "hot": "looked at first",
+        "cold": "rarely seen",
+        "label": "aggregated from eye-tracking of first-time visitors on a content page"
+      }
+    },
+    {
+      "say": "The F pattern, drawn as a scan path.",
+      "lines": ["The eye draws", "an F."],
+      "visual": {
+        "type": "gazepath",
+        "title": "The F-pattern, stop by stop",
+        "variant": 0,
+        "stops": [
+          "The headline, read almost completely",
+          "The end of the first line, then a jump back",
+          "The start of the second band of text",
+          "A shorter sweep, already losing interest",
+          "A vertical scan down the left margin"
+        ]
+      }
+    },
+    {
+      "say": "And the Z pattern, for a sparser layout.",
+      "lines": ["Sparse page?", "The eye draws a Z."],
+      "visual": {
+        "type": "gazepath",
+        "title": "The Z-pattern on a sparse landing page",
+        "variant": 1,
+        "stops": [
+          "Logo and the promise, top left",
+          "Navigation and the sign-in link, top right",
+          "A diagonal sweep across the hero image",
+          "The one call to action, bottom right"
+        ]
+      }
+    },
+    {
+      "say": "A system diagram, three boxes and two arrows.",
+      "lines": ["Draw the system,", "not a bullet list."],
+      "visual": {
+        "type": "diagram",
+        "title": "How a delivery notification actually reaches a phone",
+        "variant": 0,
+        "nodes": ["Warehouse dispatch system", "Notification service", "The customer's handset"],
+        "label": "three hops, and every one of them can silently drop the message"
+      }
+    },
+    {
+      "say": "The same idea as a hub, with four spokes.",
+      "lines": ["One hub,", "four consumers."],
+      "visual": {
+        "type": "diagram",
+        "title": "One notification service, four things depending on it",
+        "variant": 1,
+        "nodes": [
+          "Notification service",
+          "Mobile application",
+          "Email digest job",
+          "Support console",
+          "Delivery driver app"
+        ]
+      }
+    },
+    {
+      "say": "A sequence: three actors, three messages.",
+      "lines": ["Who says what,", "and in what order."],
+      "visual": {
+        "type": "sequence",
+        "title": "The handshake behind a single delivery notification",
+        "variant": 0,
+        "actors": ["Dispatch", "Notification service", "Handset"],
+        "messages": [
+          { "from": 0, "to": 1, "label": "Driver is five minutes away" },
+          { "from": 1, "to": 2, "label": "Push notification" },
+          { "from": 2, "to": 1, "label": "Delivered receipt" }
+        ]
+      }
+    },
+    {
+      "say": "The same exchange, numbered and listed below.",
+      "lines": ["Number the arrows,", "list the wording."],
+      "visual": {
+        "type": "sequence",
+        "title": "The same handshake, with the wording listed out",
+        "variant": 1,
+        "actors": ["Dispatch", "Notification service", "Handset"],
+        "messages": [
+          { "from": 0, "to": 1, "label": "Driver is five minutes from the delivery address" },
+          { "from": 1, "to": 2, "label": "Push the notification to every registered device" },
+          { "from": 2, "to": 1, "label": "Acknowledge receipt so nothing is sent twice" }
+        ]
+      }
+    },
+    {
+      "say": "The anatomy of a card, labelled all the way round.",
+      "lines": ["Name every part", "of the thing."],
+      "visual": {
+        "type": "anatomy",
+        "title": "The anatomy of a product card",
+        "object": "card",
+        "variant": 0,
+        "parts": [
+          "Media area, always a fixed aspect ratio",
+          "Title, truncating to a single line",
+          "Supporting metadata in the muted tone",
+          "One primary action, thumb sized",
+          "Status badge, pinned to the corner"
+        ]
+      }
+    },
+    {
+      "say": "And the anatomy of a button, labelled down one side.",
+      "lines": ["Four parts,", "one column."],
+      "visual": {
+        "type": "anatomy",
+        "title": "The anatomy of a primary button",
+        "object": "button",
+        "variant": 1,
+        "parts": [
+          "The label, never longer than three words",
+          "A leading icon, optional and decorative",
+          "Generous internal padding on every side",
+          "The focus ring, drawn outside the shape"
+        ]
+      }
+    },
+    {
+      "say": "A race between two markers, at different speeds.",
+      "lines": ["Fast and slow,", "side by side."],
+      "visual": {
+        "type": "race",
+        "title": "Time to first meaningful paint, old build against new",
+        "unit": "milliseconds",
+        "variant": 0,
+        "label": "same network, same device, the only difference is the bundle",
+        "runners": [
+          { "label": "The rebuilt bundle, code split", "value": 900, "suffix": " ms" },
+          { "label": "The original single bundle build", "value": 2400, "suffix": " ms" }
+        ]
+      }
+    },
+    {
+      "say": "The same pair, given the same amount of time each.",
+      "lines": ["Same time.", "Very different distance."],
+      "visual": {
+        "type": "race",
+        "title": "How far each build gets in nine hundred milliseconds",
+        "unit": "milliseconds",
+        "variant": 1,
+        "label": "give both builds the same budget and only one of them finishes",
+        "runners": [
+          { "label": "The rebuilt bundle, code split", "value": 900, "suffix": " ms" },
+          { "label": "The original single bundle build", "value": 2400, "suffix": " ms" }
+        ]
+      }
+    },
+    {
+      "say": "The layers of a system, peeling apart one at a time.",
+      "lines": ["Peel the layers", "apart."],
+      "visual": {
+        "type": "stack",
+        "title": "The layers a single tap has to travel through",
+        "variant": 0,
+        "highlight": 1,
+        "layers": [
+          "Interface layer, everything a person can see",
+          "Application logic and validation rules",
+          "The transport and retry machinery",
+          "Persistent storage and the audit log"
+        ]
+      }
+    },
+    {
+      "say": "The same layers, laid out flat as slabs.",
+      "lines": ["Flat slabs,", "labels inside."],
+      "visual": {
+        "type": "stack",
+        "title": "The same four layers, flattened out",
+        "variant": 1,
+        "highlight": 3,
+        "layers": [
+          "Interface layer, everything a person can see",
+          "Application logic and validation rules",
+          "The transport and retry machinery",
+          "Persistent storage and the audit log"
+        ]
+      }
+    },
+    {
+      "say": "A switch, thrown, with the consequence beside it.",
+      "lines": ["Throw the switch,", "read the consequence."],
+      "visual": {
+        "type": "toggle",
+        "title": "What happens when the notification setting is turned on",
+        "variant": 0,
+        "off": "Notifications off",
+        "on": "Notifications on",
+        "result": "Every delivery update now arrives on the handset within two seconds of dispatch."
+      }
+    },
+    {
+      "say": "The same decision, drawn as a lever.",
+      "lines": ["A lever,", "thrown over."],
+      "visual": {
+        "type": "toggle",
+        "title": "The same decision, drawn as a lever",
+        "variant": 1,
+        "off": "Manual approval",
+        "on": "Automatic dispatch",
+        "result": "Orders now leave the warehouse without waiting for anybody to click approve."
+      }
+    },
+    {
+      "say": "A grid, with elements snapping onto it.",
+      "lines": ["Everything lands", "on the grid."],
+      "visual": {
+        "type": "grid8",
+        "title": "An eight point grid, doing its job",
+        "variant": 0,
+        "label": "nothing here was placed by eye — every edge landed on a multiple of eight"
+      }
+    },
+    {
+      "say": "And a baseline grid, catching every line of text.",
+      "lines": ["Text lands on", "the baseline."],
+      "visual": {
+        "type": "grid8",
+        "title": "A baseline grid catching every line of text",
+        "variant": 1,
+        "label": "every line of type sits on the same rhythm all the way down the page"
+      }
+    },
+    {
+      "say": "Two colour pairs, judged against the standard.",
+      "lines": ["One passes.", "One does not."],
+      "visual": {
+        "type": "contrastcheck",
+        "title": "Body text contrast against the page background",
+        "variant": 0,
+        "pairs": [
+          { "label": "Ink on paper, the default body pairing", "fg": "#16181D", "bg": "#EFF0EA", "sample": "Readable" },
+          { "label": "Muted grey on paper, the placeholder pairing", "fg": "#A9AEB6", "bg": "#EFF0EA", "sample": "Placeholder" }
+        ]
+      }
+    },
+    {
+      "say": "The same two pairs, stacked as rows.",
+      "lines": ["Stack the rows,", "keep the verdict."],
+      "visual": {
+        "type": "contrastcheck",
+        "title": "The same two pairings, stacked",
+        "variant": 1,
+        "pairs": [
+          { "label": "Accent on paper, used for every link", "fg": "#4B3BFF", "bg": "#EFF0EA", "sample": "Track my delivery" },
+          { "label": "Accent on tint, used in the empty state", "fg": "#4B3BFF", "bg": "#3B3B55", "sample": "Track my delivery" }
+        ]
+      }
+    },
+    {
+      "say": "A type ramp, landing one step at a time.",
+      "lines": ["Hierarchy you", "can see."],
+      "visual": {
+        "type": "typescale",
+        "title": "The four sizes this product is allowed to use",
+        "variant": 0,
+        "steps": [
+          { "label": "Display heading", "size": 88, "sample": "Delivery on the way" },
+          { "label": "Section heading", "size": 52, "sample": "Delivery on the way" },
+          { "label": "Body copy", "size": 32, "sample": "Delivery on the way" },
+          { "label": "Caption and metadata", "size": 22, "sample": "Delivery on the way" }
+        ]
+      }
+    },
+    {
+      "say": "The same ramp, centred, named under each step.",
+      "lines": ["Centred ramp,", "names beneath."],
+      "visual": {
+        "type": "typescale",
+        "title": "The same ramp, centred",
+        "variant": 1,
+        "steps": [
+          { "label": "Display heading", "size": 72, "sample": "On the way" },
+          { "label": "Section heading", "size": 44, "sample": "On the way" },
+          { "label": "Body copy", "size": 28, "sample": "On the way" }
+        ]
+      }
+    },
+    {
+      "say": "The same element, at two sizes.",
+      "lines": ["Eight pixels,", "sixty four pixels."],
+      "visual": {
+        "type": "zoomcompare",
+        "title": "The gap between a decorative target and a real one",
+        "variant": 0,
+        "note": "the small one is not a smaller button, it is a different experience entirely",
+        "items": [
+          { "label": "The close button as shipped", "size": 8 },
+          { "label": "The close button at fingertip size", "size": 64 }
+        ]
+      }
+    },
+    {
+      "say": "And nested, so the ratio is unmissable.",
+      "lines": ["Nest them and", "the ratio bites."],
+      "visual": {
+        "type": "zoomcompare",
+        "title": "The same two targets, one inside the other",
+        "variant": 1,
+        "note": "that speck in the middle is what a person is expected to hit on a moving train",
+        "items": [
+          { "label": "As shipped", "size": 8 },
+          { "label": "At fingertip size", "size": 64 }
+        ]
+      }
+    }
+  ]
+}

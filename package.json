@@ -1,0 +1,44 @@
+{
+  "name": "autovid-studio",
+  "version": "1.0.0",
+  "description": "Desktop app to create videos manually and run automated channels, on top of the autovid Remotion engine.",
+  "main": "out/main/index.js",
+  "author": "you",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "start": "electron-vite preview",
+    "dist": "electron-vite build && electron-builder --win",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && playwright test",
+    "test:e2e": "playwright test",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.230",
+    "@remotion/google-fonts": "4.0.230",
+    "@remotion/player": "4.0.230",
+    "@remotion/renderer": "4.0.230",
+    "node-cron": "3.0.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.230",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "20.14.0",
+    "@types/node-cron": "3.0.11",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.1",
+    "electron": "31.3.0",
+    "electron-builder": "24.13.3",
+    "electron-vite": "2.3.0",
+    "typescript": "5.5.4",
+    "vite": "5.3.4"
+  },
+  "optionalDependencies": {
+    "@remotion/compositor-darwin-arm64": "^4.0.230"
+  }
+}

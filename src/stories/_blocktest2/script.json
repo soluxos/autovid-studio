@@ -1,0 +1,485 @@
+{
+  "title": "Block test 2",
+  "brand": "minard",
+  "surface": "paper",
+  "context": "Engine QA",
+  "status": "Block test 2",
+  "beats": [
+    {
+      "say": "The temperature line only bends one way.",
+      "lines": ["The curve only", "bends one way"],
+      "visual": {
+        "type": "area",
+        "title": "Global average surface temperature anomaly",
+        "unit": "hundredths of a °C",
+        "variant": 1,
+        "points": [
+          { "label": "January nineteen ninety", "value": 30 },
+          { "label": "1998", "value": 60 },
+          { "label": "2005", "value": 65 },
+          { "label": "Middle of the two thousands", "value": 70 },
+          { "label": "2016", "value": 100 },
+          { "label": "2020", "value": 110 },
+          { "label": "December twenty twenty four", "value": 135 }
+        ]
+      }
+    },
+    {
+      "say": "Every region earns money in three different ways.",
+      "lines": ["Where the revenue", "actually comes from"],
+      "visual": {
+        "type": "stackbars",
+        "title": "Revenue mix by operating region",
+        "unit": "$m",
+        "variant": 0,
+        "series": ["Subscription revenue", "Advertising partnerships", "Merch and licensing"],
+        "rows": [
+          { "label": "North American operations", "values": [420, 210, 90] },
+          { "label": "Europe, Middle East and Africa", "values": [310, 180, 60] },
+          { "label": "Asia-Pacific and Latin America", "values": [220, 240, 40] }
+        ]
+      }
+    },
+    {
+      "say": "Remote teams grew while office teams shrank in every department.",
+      "lines": ["Remote grew,", "office shrank"],
+      "visual": {
+        "type": "groupbars",
+        "title": "Headcount by department and work mode",
+        "unit": "people",
+        "variant": 0,
+        "seriesA": "Remote-first employees",
+        "seriesB": "Office-based employees",
+        "groups": [
+          { "label": "Engineering and product development", "a": 340, "b": 120 },
+          { "label": "Sales and customer success", "a": 210, "b": 190 },
+          { "label": "Corporate and administrative", "a": 90, "b": 160 }
+        ]
+      }
+    },
+    {
+      "say": "Ten years changed the ranking of what we watch.",
+      "lines": ["Then versus now,", "hours per week"],
+      "visual": {
+        "type": "slope",
+        "title": "Weekly hours by medium, then and now",
+        "unit": "hours",
+        "left": "2015",
+        "right": "2025",
+        "highlight": 0,
+        "variant": 0,
+        "items": [
+          { "label": "Short-form video on phones", "from": 2, "to": 16 },
+          { "label": "Broadcast and cable television", "from": 21, "to": 9 },
+          { "label": "Subscription streaming services", "from": 8, "to": 14 },
+          { "label": "Terrestrial and internet radio", "from": 7, "to": 6 }
+        ]
+      }
+    },
+    {
+      "say": "Five cities, and one of them is nowhere near the rest.",
+      "lines": ["One city is", "off on its own"],
+      "visual": {
+        "type": "lollipop",
+        "title": "Average one-way commute by metro area",
+        "unit": "minutes",
+        "highlight": 0,
+        "variant": 0,
+        "data": [
+          { "label": "Mexico City metropolitan area", "value": 66 },
+          { "label": "Greater Mumbai and suburbs", "value": 58 },
+          { "label": "New York tri-state region", "value": 52 },
+          { "label": "Greater London built-up area", "value": 46 },
+          { "label": "Berlin-Brandenburg region", "value": 39 }
+        ]
+      }
+    },
+    {
+      "say": "Two of the three teams beat their target this quarter.",
+      "lines": ["Two of three", "beat the target"],
+      "visual": {
+        "type": "bullet",
+        "title": "Quarterly performance against target",
+        "unit": "deals closed",
+        "variant": 0,
+        "rows": [
+          { "label": "Enterprise accounts team", "actual": 128, "target": 110 },
+          { "label": "Mid-market and growth team", "actual": 94, "target": 100 },
+          { "label": "Small business inbound team", "actual": 173, "target": 150 }
+        ]
+      }
+    },
+    {
+      "say": "The reservoir sits at just over two thirds of capacity.",
+      "lines": ["The dial reads", "68%"],
+      "visual": {
+        "type": "gauge",
+        "value": 68,
+        "max": 100,
+        "suffix": "%",
+        "label": "of total reservoir storage capacity in use",
+        "variant": 0
+      }
+    },
+    {
+      "say": "Almost all of the year's rain lands in just three months.",
+      "lines": ["Three wet months,", "nine dry ones"],
+      "visual": {
+        "type": "calheat",
+        "title": "Monthly share of annual rainfall",
+        "highlight": 6,
+        "variant": 0,
+        "values": [8, 6, 10, 14, 30, 74, 100, 88, 42, 16, 9, 7],
+        "labels": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+      }
+    },
+    {
+      "say": "Everything you could do fits in one of four boxes.",
+      "lines": ["Four boxes,", "one worth living in"],
+      "visual": {
+        "type": "matrix",
+        "xAxis": ["Low effort required", "High effort required"],
+        "yAxis": ["High impact on the outcome", "Low impact on the outcome"],
+        "quads": ["Quick wins you should do today", "Big projects worth scheduling", "Small favours to batch together", "Time sinks to decline politely"],
+        "highlight": 0,
+        "variant": 0
+      }
+    },
+    {
+      "say": "In one decade the league table turned upside down.",
+      "lines": ["The table", "turned over"],
+      "visual": {
+        "type": "bump",
+        "title": "Most valuable companies by rank",
+        "cols": ["2015", "2025"],
+        "highlight": 2,
+        "variant": 0,
+        "items": [
+          { "label": "Consumer electronics giant", "from": 1, "to": 3 },
+          { "label": "Enterprise software house", "from": 2, "to": 2 },
+          { "label": "Graphics chip designer", "from": 4, "to": 1 },
+          { "label": "Online retail conglomerate", "from": 3, "to": 4 }
+        ]
+      }
+    },
+    {
+      "say": "Rents moved differently in every city, but always up.",
+      "lines": ["Every arrow", "points up"],
+      "visual": {
+        "type": "dumbbell",
+        "title": "Median monthly rent, five years apart",
+        "unit": "$",
+        "from": "2020",
+        "to": "2025",
+        "variant": 0,
+        "rows": [
+          { "label": "Downtown core apartments", "from": 1650, "to": 2380 },
+          { "label": "Inner suburban family homes", "from": 1900, "to": 2510 },
+          { "label": "Outer commuter belt units", "from": 1150, "to": 1680 },
+          { "label": "Regional satellite towns", "from": 890, "to": 1240 }
+        ]
+      }
+    },
+    {
+      "say": "Most workouts cluster right around the forty-minute mark.",
+      "lines": ["The middle of", "the bell"],
+      "visual": {
+        "type": "histogram",
+        "title": "Distribution of workout session lengths",
+        "unit": "sessions",
+        "highlight": 3,
+        "variant": 1,
+        "bins": [
+          { "label": "0-14m", "value": 12 },
+          { "label": "15-29m", "value": 34 },
+          { "label": "30-44m", "value": 78 },
+          { "label": "45-59m", "value": 96 },
+          { "label": "60-74m", "value": 54 },
+          { "label": "75-89m", "value": 22 },
+          { "label": "90m plus", "value": 9 }
+        ]
+      }
+    },
+    {
+      "say": "A thousand visitors become just twenty-eight paying customers.",
+      "lines": ["1,000 in,", "28 out"],
+      "visual": {
+        "type": "funnel",
+        "title": "From first visit to paying customer",
+        "unit": "people",
+        "variant": 0,
+        "stages": [
+          { "label": "Visited the landing page", "value": 1000 },
+          { "label": "Started the free trial signup", "value": 340 },
+          { "label": "Activated within the first week", "value": 96 },
+          { "label": "Converted to a paid plan", "value": 28 }
+        ]
+      }
+    },
+    {
+      "say": "The people at the top rest on everyone underneath.",
+      "lines": ["It's crowded", "at the bottom"],
+      "visual": {
+        "type": "pyramid",
+        "title": "One publishing house, by headcount",
+        "highlight": 0,
+        "variant": 0,
+        "tiers": [
+          { "label": "Executive leadership team", "value": "4 people" },
+          { "label": "Commissioning editors and managers", "value": "31 people" },
+          { "label": "Production, design and marketing", "value": "118 people" },
+          { "label": "Freelance and contract contributors", "value": "540 people" }
+        ]
+      }
+    },
+    {
+      "say": "One line item eats more than half of the whole budget.",
+      "lines": ["Half the budget,", "one line item"],
+      "visual": {
+        "type": "treemap",
+        "title": "Where the household budget goes",
+        "unit": "$ per month",
+        "variant": 0,
+        "tiles": [
+          { "label": "Rent and household utilities", "value": 2200 },
+          { "label": "Groceries and eating out", "value": 850 },
+          { "label": "Transport and car costs", "value": 520 },
+          { "label": "Insurance and healthcare", "value": 390 },
+          { "label": "Everything else entirely", "value": 640 }
+        ]
+      }
+    },
+    {
+      "say": "Four overlapping phases, and we are barely halfway through.",
+      "lines": ["Barely halfway", "through the plan"],
+      "visual": {
+        "type": "gantt",
+        "title": "The restoration project, by quarter",
+        "cols": ["Q1", "Q2", "Q3", "Q4"],
+        "highlight": 1,
+        "marker": 2.4,
+        "variant": 1,
+        "spans": [
+          { "label": "Structural survey and permits", "start": 0, "end": 1.2 },
+          { "label": "Foundation and masonry repair", "start": 0.8, "end": 2.6 },
+          { "label": "Interior restoration works", "start": 2, "end": 3.4 },
+          { "label": "Landscaping and public opening", "start": 3, "end": 4 }
+        ]
+      }
+    },
+    {
+      "say": "Nearly a third of dog owners also live with a cat.",
+      "lines": ["The overlap is", "bigger than you think"],
+      "visual": {
+        "type": "venn",
+        "title": "Pet households in one survey",
+        "a": "Households with at least one dog",
+        "b": "Households with at least one cat",
+        "overlap": "Homes with both species",
+        "overlapValue": 31,
+        "variant": 1
+      }
+    },
+    {
+      "say": "We tried every excuse before the one that worked.",
+      "lines": ["Every excuse,", "then the fix"],
+      "visual": {
+        "type": "wordstack",
+        "highlight": 3,
+        "variant": 0,
+        "words": ["Procrastination", "Perfectionism", "Overcommitment", "Just starting"]
+      }
+    },
+    {
+      "say": "Five steps to launch, and two are still waiting.",
+      "lines": ["Three down,", "two to go"],
+      "visual": {
+        "type": "checklist",
+        "title": "Launch readiness checklist",
+        "variant": 1,
+        "items": [
+          { "label": "Security audit signed off by external firm", "done": true },
+          { "label": "Load testing at ten times normal traffic", "done": true },
+          { "label": "Documentation and onboarding guides published", "done": true },
+          { "label": "Pricing page approved by legal counsel", "done": false },
+          { "label": "Support team trained on the new features", "done": false }
+        ]
+      }
+    },
+    {
+      "say": "On paper they look similar. In practice they are not.",
+      "lines": ["Same category,", "different animals"],
+      "visual": {
+        "type": "versus",
+        "title": "Electric versus petrol, over five years",
+        "left": "Electric hatchback",
+        "right": "Petrol equivalent",
+        "accent": 0,
+        "variant": 0,
+        "rows": [
+          { "label": "Fuel or charging cost", "a": "$3,100 total", "b": "$9,800 total" },
+          { "label": "Scheduled servicing", "a": "$1,200 total", "b": "$3,400 total" },
+          { "label": "Five-year resale value", "a": "Keeps 52%", "b": "Keeps 41%" }
+        ]
+      }
+    },
+    {
+      "say": "The counter rolled past one point two million this morning.",
+      "lines": ["The counter", "keeps rolling"],
+      "visual": {
+        "type": "odometer",
+        "value": 1247380,
+        "label": "cumulative visitors since the museum reopened",
+        "variant": 1
+      }
+    },
+    {
+      "say": "Every dollar of the grant splits three ways.",
+      "lines": ["Where each dollar", "actually flows"],
+      "visual": {
+        "type": "flowshare",
+        "unit": "%",
+        "variant": 0,
+        "source": { "label": "Annual research grant pool", "value": 100, "suffix": "%" },
+        "dests": [
+          { "label": "Direct laboratory research costs", "value": 58, "suffix": "%" },
+          { "label": "Postgraduate stipends and salaries", "value": 29, "suffix": "%" },
+          { "label": "Administration and overheads", "value": 13, "suffix": "%" }
+        ]
+      }
+    },
+    {
+      "say": "One small team holds five departments in orbit.",
+      "lines": ["Everything orbits", "one small team"],
+      "visual": {
+        "type": "orbit",
+        "center": "Data platform team",
+        "variant": 0,
+        "satellites": [
+          "Marketing analytics group",
+          "Finance and forecasting",
+          "Product experimentation",
+          "Executive reporting suite",
+          "Customer support insights"
+        ]
+      }
+    },
+    {
+      "say": "The fund has raised most of what the roof will cost.",
+      "lines": ["So close to", "a new roof"],
+      "visual": {
+        "type": "thermometer",
+        "value": 8400,
+        "goal": 12000,
+        "suffix": "",
+        "label": "raised for the village hall roof appeal, in dollars",
+        "variant": 0
+      }
+    },
+    {
+      "say": "Add it up and the quiet costs are the loud ones.",
+      "lines": ["The quiet costs", "add up loudest"],
+      "visual": {
+        "type": "receipt",
+        "store": "One year of small habits",
+        "currency": "$",
+        "totalLabel": "Total per year",
+        "variant": 1,
+        "items": [
+          { "label": "Daily takeaway flat whites", "value": 1370 },
+          { "label": "Forgotten subscriptions", "value": 640 },
+          { "label": "Delivery fees and small tips", "value": 480 },
+          { "label": "Impulse checkout purchases", "value": 890 }
+        ]
+      }
+    },
+    {
+      "say": "One ticket stub survived the whole century in a coat pocket.",
+      "lines": ["One stub,", "one century"],
+      "visual": {
+        "type": "ticket",
+        "event": "Farewell concert at the Grand Palais Theatre",
+        "venue": "Palais Garnier, Paris",
+        "date": "14 June 1925",
+        "seat": "12A",
+        "admit": "admit one",
+        "variant": 0
+      }
+    },
+    {
+      "say": "The only photo from that day has a caption in pencil.",
+      "lines": ["Captioned in pencil,", "kept for decades"],
+      "visual": {
+        "type": "polaroid",
+        "caption": "The last morning at the old observatory, 1979",
+        "variant": 0
+      }
+    },
+    {
+      "say": "The morning paper buried the biggest story of the year.",
+      "lines": ["Page fourteen,", "of all places"],
+      "visual": {
+        "type": "clipping",
+        "kicker": "From the archive",
+        "source": "The Evening Chronicle · 3 March 1938",
+        "headline": "Committee quietly approves the harbour tunnel nobody asked for",
+        "body": "In a meeting that lasted barely twenty minutes, the works committee voted to proceed with the harbour crossing, a scheme estimated at four million pounds and dismissed by its own engineers only a decade earlier as an impossibility. Residents of the eastern docks, who stand to lose three streets to the northern approach, were not consulted and learned of the decision from this newspaper.",
+        "variant": 1
+      }
+    },
+    {
+      "say": "Everything about the expedition fits on one card.",
+      "lines": ["The whole expedition,", "one card"],
+      "visual": {
+        "type": "factcard",
+        "title": "Expedition file · South Col route",
+        "accent": 3,
+        "variant": 0,
+        "pairs": [
+          { "label": "Expedition leader", "value": "Cmdr. E. Whitfield" },
+          { "label": "Team members on the mountain", "value": "14 climbers" },
+          { "label": "Days above base camp", "value": "47 days" },
+          { "label": "Summit reached", "value": "Yes · 29 May" },
+          { "label": "Oxygen cylinders consumed", "value": "193 cylinders" }
+        ]
+      }
+    },
+    {
+      "say": "Her last letter home said more than the telegrams ever did.",
+      "lines": ["The last letter", "home"],
+      "visual": {
+        "type": "letter",
+        "date": "Cape Evans, 11 April 1911",
+        "salutation": "My dearest Constance,",
+        "body": "The hut is warmer than we dared hope and the ponies are settling, though the wind speaks all night through the ridge beams. Do not believe what the papers print about our chances; we are well provisioned, well humoured, and I have never slept better than under this endless daylight.",
+        "signoff": "Ever your devoted,",
+        "signature": "Edward",
+        "variant": 0
+      }
+    },
+    {
+      "say": "Three numbers tell the whole story of the harvest.",
+      "lines": ["The harvest,", "in three numbers"],
+      "visual": {
+        "type": "countgrid",
+        "accent": 1,
+        "variant": 0,
+        "items": [
+          { "value": 214, "label": "volunteer pickers across the valley", "plain": true },
+          { "value": 38, "suffix": "t", "label": "of fruit brought in before the frost" },
+          { "value": 9, "label": "days from first pick to last crate", "plain": true }
+        ]
+      }
+    },
+    {
+      "say": "Twenty-three tally marks on the cell wall, one for each week.",
+      "lines": ["23 weeks,", "scratched in chalk"],
+      "visual": {
+        "type": "tally",
+        "value": 23,
+        "label": "weeks recorded on the lighthouse logbook wall",
+        "variant": 1
+      }
+    }
+  ]
+}

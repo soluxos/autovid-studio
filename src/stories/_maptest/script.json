@@ -1,0 +1,189 @@
+{
+  "title": "Map block test",
+  "brand": "minard",
+  "surface": "paper",
+  "context": "Engine QA",
+  "status": "Map block test",
+  "beats": [
+    {
+      "say": "Three markets, three continents, one map of the money.",
+      "lines": ["Three continents,", "one revenue map"],
+      "visual": {
+        "type": "worldmap",
+        "title": "Annual platform revenue by operating continent",
+        "unit": "$m",
+        "variant": 0,
+        "regions": [
+          { "name": "North America", "label": "North American subscription business", "value": 2210, "suffix": "m" },
+          { "name": "Europe", "label": "Europe, Middle East and North Africa", "value": 1840, "suffix": "m" },
+          { "name": "Asia", "label": "Asia-Pacific growth territories", "value": 960, "suffix": "m" }
+        ]
+      }
+    },
+    {
+      "say": "Four hundred and forty eight million people share one union.",
+      "lines": ["One union,", "448 million people"],
+      "visual": {
+        "type": "globe",
+        "center": "Europe",
+        "highlight": "Europe",
+        "value": 448,
+        "suffix": "m",
+        "label": "people across the twenty-seven member states of the union",
+        "title": "The European Union from orbit",
+        "variant": 0
+      }
+    },
+    {
+      "say": "From London to Jakarta is nearly twelve thousand kilometres in a straight line.",
+      "lines": ["London to Jakarta,", "one great circle"],
+      "visual": {
+        "type": "maproute",
+        "title": "The longest commute in the catalogue",
+        "from": "London",
+        "to": "Jakarta",
+        "fromLabel": "London St Pancras International",
+        "toLabel": "Jakarta, the sinking megacity of Indonesia",
+        "unit": "km",
+        "variant": 0
+      }
+    },
+    {
+      "say": "Five metro systems, packed into one crowded corner of the map.",
+      "lines": ["Five metros,", "one crowded corner"],
+      "visual": {
+        "type": "mappins",
+        "title": "Daily metro ridership, busiest European systems",
+        "variant": 1,
+        "pins": [
+          { "place": "London", "label": "The London Underground network", "value": 5, "suffix": "m" },
+          { "place": "Paris", "label": "The Paris Métro and RER combined", "value": 4, "suffix": "m" },
+          { "place": "Amsterdam", "label": "Amsterdam GVB metro and tramways", "value": 1, "suffix": "m" },
+          { "place": "Berlin", "label": "Berlin U-Bahn and S-Bahn together", "value": 3, "suffix": "m" },
+          { "place": "Rome", "label": "Rome Metropolitana lines A, B and C", "value": 1, "suffix": "m" }
+        ]
+      }
+    },
+    {
+      "say": "The printing press left Florence and took fifty years to reach every court in Europe.",
+      "lines": ["Fifty years to", "cross a continent"],
+      "visual": {
+        "type": "mapspread",
+        "title": "The spread of the printing press, 1450 to 1500",
+        "origin": "Florence",
+        "points": ["Rome", "Paris", "London", "Madrid", "Stockholm", "Moscow", "Istanbul"],
+        "value": 50,
+        "suffix": " yrs",
+        "label": "from first press to full coverage",
+        "variant": 0
+      }
+    },
+    {
+      "say": "Sixty African cities now hold more than a million people each.",
+      "lines": ["60 cities over", "a million people"],
+      "visual": {
+        "type": "mapdots",
+        "title": "Million-plus cities across the African continent",
+        "region": "Africa",
+        "count": 60,
+        "value": 60,
+        "label": "cities of more than one million residents",
+        "seed": 11,
+        "variant": 1
+      }
+    },
+    {
+      "say": "South America still holds more tropical forest than Africa, but the gap is closing.",
+      "lines": ["Two rainforest", "giants, head to head"],
+      "visual": {
+        "type": "mapcompare",
+        "title": "Tropical forest cover by continent",
+        "unit": "million hectares",
+        "accent": 0,
+        "variant": 0,
+        "items": [
+          { "region": "South America", "label": "Amazon basin and the Guiana Shield", "value": 840 },
+          { "region": "Africa", "label": "Congo basin and West African belt", "value": 630 }
+        ]
+      }
+    },
+    {
+      "say": "In eighteen eighty nine, Nellie Bly raced around the whole planet in seventy two days.",
+      "lines": ["Around the world", "in 72 days"],
+      "visual": {
+        "type": "globespin",
+        "title": "Nellie Bly's route, eighteen eighty-nine",
+        "places": ["London", "Cairo", "Singapore", "Hong Kong", "Tokyo"],
+        "value": 72,
+        "suffix": " days",
+        "label": "London to the Pacific and onward",
+        "variant": 0
+      }
+    },
+    {
+      "say": "Zoom into Europe and the whole Renaissance fits inside one small box.",
+      "lines": ["The Renaissance,", "inside one box"],
+      "visual": {
+        "type": "mapzoom",
+        "title": "Where the Renaissance actually happened",
+        "region": "Europe",
+        "variant": 0,
+        "pins": [
+          { "place": "Florence", "label": "Florence, cradle of the Renaissance" },
+          { "place": "Rome", "label": "Rome and the papal commissions" },
+          { "place": "Paris", "label": "Paris and the northern humanists" },
+          { "place": "Amsterdam", "label": "Amsterdam's printing houses" }
+        ]
+      }
+    },
+    {
+      "say": "One factory floor in China feeds four continents at once.",
+      "lines": ["One origin,", "four destinations"],
+      "visual": {
+        "type": "mapflow",
+        "title": "Electronics exports by destination market",
+        "unit": "$bn",
+        "origin": "China",
+        "originLabel": "Chinese manufacturing hubs",
+        "variant": 0,
+        "flows": [
+          { "place": "USA", "label": "United States and Canadian retail", "value": 486 },
+          { "place": "Germany", "label": "European Union distribution centres", "value": 312 },
+          { "place": "Brazil", "label": "South American import partners", "value": 96 },
+          { "place": "Australia", "label": "Australia and New Zealand markets", "value": 54 }
+        ]
+      }
+    },
+    {
+      "say": "Fly down from orbit and Italy resolves into a country of fifty nine million people.",
+      "lines": ["From orbit down", "to one country"],
+      "visual": {
+        "type": "globezoom",
+        "title": "Italy, from orbit down to its borders",
+        "target": "Italy",
+        "variant": 0,
+        "stats": [
+          { "value": 59, "suffix": "m", "label": "people, from the old Grand Duchy of Tuscany down to Sicily" },
+          { "value": 301338, "label": "square kilometres inside the drawn border" }
+        ]
+      }
+    },
+    {
+      "say": "Zoom to the old banking triangle and three cities carry the whole Renaissance economy.",
+      "lines": ["Three cities,", "one banking triangle"],
+      "visual": {
+        "type": "globezoom",
+        "title": "The Renaissance banking triangle",
+        "variant": 1,
+        "pins": [
+          { "place": "Florence", "label": "Florence, seat of the Grand Duchy of Tuscany" },
+          { "place": "Rome", "label": "Rome and the Papal States' treasury accounts" },
+          { "place": "Madrid", "label": "Madrid, banker to the Habsburg crown of Spain" }
+        ],
+        "stats": [
+          { "value": 4, "label": "branches of the Medici bank across the triangle", "plain": true }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "title": "Krakatoa",
+  "brand": "minard",
+  "surface": "newsprint",
+  "context": "1883 · Krakatoa",
+  "status": "Data story",
+  "beats": [
+    {
+      "say": "In eighteen eighty three, the island volcano Krakatoa exploded.",
+      "lines": [
+        "In 1883, Krakatoa",
+        "exploded."
+      ],
+      "visual": {
+        "type": "image",
+        "footage": "volcano eruption lava night",
+        "src": "stories/krakatoa/footage-0.webm",
+        "start": 25
+      }
+    },
+    {
+      "say": "It made the loudest sound in recorded history.",
+      "lines": [
+        "The loudest sound",
+        "in recorded history."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    },
+    {
+      "say": "The blast was heard three thousand miles away.",
+      "lines": [
+        "Heard 3,000 miles",
+        "away."
+      ],
+      "visual": {
+        "type": "stat",
+        "value": 3000,
+        "suffix": " mi",
+        "label": "how far the sound carried"
+      }
+    },
+    {
+      "say": "Up close, it was louder than anything we can measure.",
+      "lines": [
+        "Louder than anything",
+        "we can measure."
+      ],
+      "visual": {
+        "type": "bars",
+        "title": "How loud",
+        "unit": "decibels",
+        "highlight": 3,
+        "style": "segments",
+        "segment": 20,
+        "data": [
+          {
+            "label": "Conversation",
+            "value": 60
+          },
+          {
+            "label": "Rock concert",
+            "value": 120
+          },
+          {
+            "label": "Jet engine",
+            "value": 150
+          },
+          {
+            "label": "Krakatoa",
+            "value": 310
+          }
+        ]
+      }
+    },
+    {
+      "say": "The pressure wave then circled the entire planet.",
+      "lines": [
+        "The shockwave circled",
+        "the planet."
+      ],
+      "visual": {
+        "type": "timeline",
+        "title": "The shockwave's journey",
+        "events": [
+          {
+            "year": "Hour 0",
+            "label": "Krakatoa"
+          },
+          {
+            "year": "Hour 34",
+            "label": "Full circle"
+          },
+          {
+            "year": "Hour 68",
+            "label": "Second lap"
+          },
+          {
+            "year": "Day 5",
+            "label": "Still registering"
+          }
+        ]
+      }
+    },
+    {
+      "say": "Four times around the Earth, before it faded.",
+      "lines": [
+        "Four times around",
+        "the Earth."
+      ],
+      "visual": {
+        "type": "stat",
+        "value": 4,
+        "plain": true,
+        "label": "times around the world"
+      }
+    },
+    {
+      "say": "One island. One sound. Heard around the world.",
+      "lines": [
+        "One sound,",
+        "heard everywhere."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    }
+  ]
+}

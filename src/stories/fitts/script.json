@@ -1,0 +1,232 @@
+{
+  "title": "Fitts's Law",
+  "brand": "interface",
+  "surface": "cutting-mat",
+  "mood": "bright",
+  "context": "UX · Fitts's Law",
+  "status": "UX Notes",
+  "beats": [
+    {
+      "say": "The four corners of your screen are the easiest pixels on it to hit. Almost every app wastes them.",
+      "lines": [
+        "The 4 corners are the",
+        "easiest pixels to hit."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    },
+    {
+      "say": "In nineteen fifty four, an air force psychologist named Paul Fitts sat people down and had them tap between two metal plates, as fast as they could without missing.",
+      "lines": [
+        "1954: tapping between",
+        "two metal plates."
+      ],
+      "visual": {
+        "type": "clipping",
+        "kicker": "Journal of Experimental Psychology · 1954",
+        "headline": "The information capacity of the human motor system",
+        "body": "Subjects tapped alternately between two metal plates, as fast as accuracy allowed. Movement time proved predictable from just two variables: how far the hand travelled, and how wide the target was.",
+        "source": "Paul M. Fitts",
+        "variant": 0
+      },
+      "bg": {
+        "src": "stories/fitts/bg-1.jpg"
+      }
+    },
+    {
+      "say": "What he found became Fitts's Law. The time to hit a target grows with the distance your hand has to travel, and shrinks as the target gets bigger.",
+      "lines": [
+        "Big and close beats",
+        "small and far."
+      ],
+      "visual": {
+        "type": "definition",
+        "word": "Fitts's Law",
+        "phonetic": "/fɪts/",
+        "pos": "principle",
+        "def": "The time to hit a target grows with distance and shrinks with size.",
+        "num": 1,
+        "variant": 0
+      }
+    },
+    {
+      "say": "Don't take my word for it. Watch. Same hand, same distance, two targets. The big one lands in about seven hundred milliseconds. The small one takes over eleven hundred.",
+      "lines": [
+        "Same distance.",
+        "Watch the difference."
+      ],
+      "visual": {
+        "type": "cursorpath",
+        "title": "Same journey, two targets",
+        "unit": "ms",
+        "runs": [
+          {
+            "label": "64 px target",
+            "targetSize": 64,
+            "distance": 600,
+            "ms": 706
+          },
+          {
+            "label": "8 px target",
+            "targetSize": 8,
+            "distance": 600,
+            "ms": 1137
+          }
+        ],
+        "variant": 0
+      }
+    },
+    {
+      "say": "So you have three levers. Make the target bigger. Move it closer. Or, the one most designers forget, give it an edge to stop against.",
+      "lines": [
+        "Three levers.",
+        "Most forget the third."
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "What makes a target easy",
+        "steps": [
+          "Make it bigger",
+          "Move it closer",
+          "Give it an edge to stop against"
+        ],
+        "variant": 1
+      }
+    },
+    {
+      "say": "Because your cursor cannot fly off the screen. Throw it at the top edge and it stops dead, right on the menu. That makes an edge, and especially a corner, a target of effectively infinite size.",
+      "lines": [
+        "A screen edge is an",
+        "infinite target."
+      ],
+      "visual": {
+        "type": "devicebrowser",
+        "title": "Menu welded to the screen edge",
+        "url": "interface.studio",
+        "menu": [
+          "File",
+          "Edit",
+          "View",
+          "Window",
+          "Help"
+        ],
+        "highlight": "menu",
+        "note": "The edge stops the cursor dead — no aiming required.",
+        "variant": 0
+      },
+      "bg": {
+        "src": "stories/fitts/bg-5.jpg"
+      }
+    },
+    {
+      "say": "Move that same menu a few pixels inside a window and the trick is gone. The identical throw sails straight past it, and now you have to drag the cursor back.",
+      "lines": [
+        "A few pixels in,",
+        "and you overshoot."
+      ],
+      "visual": {
+        "type": "menudemo",
+        "title": "The same menu, floating in a window",
+        "items": [
+          "File",
+          "Edit",
+          "View",
+          "Help"
+        ],
+        "target": 1,
+        "note": "No wall to catch it — the throw overshoots and must be corrected.",
+        "variant": 1
+      }
+    },
+    {
+      "say": "On a phone, the target moves with your grip. Only about a third of a large screen is comfortable for one thumb. Everything above that arc is a stretch, or a second hand.",
+      "lines": [
+        "Only a third is comfy",
+        "for one thumb."
+      ],
+      "visual": {
+        "type": "devicephone",
+        "title": "One-handed reach",
+        "appTitle": "Inbox",
+        "rows": [
+          "Archive all",
+          "Settings",
+          "Compose"
+        ],
+        "nav": [
+          "Home",
+          "Search",
+          "You"
+        ],
+        "thumbZone": true,
+        "note": "Inside the arc: easy. Above it: a stretch.",
+        "variant": 0
+      }
+    },
+    {
+      "say": "Which is why the platforms put a floor under it. Apple asks for forty four points, google for forty eight, because the average fingertip covers about forty five pixels.",
+      "lines": [
+        "44 pt is not a style.",
+        "It's a fingertip."
+      ],
+      "visual": {
+        "type": "factcard",
+        "title": "Minimum touch targets",
+        "accent": 3,
+        "pairs": [
+          {
+            "label": "Apple · iOS",
+            "value": "44 × 44 pt"
+          },
+          {
+            "label": "Google · Android",
+            "value": "48 × 48 dp"
+          },
+          {
+            "label": "W3C · WCAG 2.2",
+            "value": "24 × 24 px"
+          },
+          {
+            "label": "Average fingertip",
+            "value": "about 45 px"
+          }
+        ],
+        "variant": 0
+      }
+    },
+    {
+      "say": "Put it together and the fix is usually free. Same screen, same content. Bigger targets, real spacing, and the destructive button moved away from the safe one.",
+      "lines": [
+        "Same content.",
+        "Half the effort."
+      ],
+      "visual": {
+        "type": "beforeafter",
+        "title": "The same screen, twice",
+        "before": {
+          "label": "Before",
+          "caption": "12 px links, no spacing, Delete beside Save"
+        },
+        "after": {
+          "label": "After",
+          "caption": "44 px targets, clear gaps, Delete moved away"
+        },
+        "variant": 0
+      },
+      "bg": {
+        "src": "stories/fitts/bg-9.jpg"
+      }
+    },
+    {
+      "say": "The four corners are still the easiest pixels on your screen. Now you know what belongs there.",
+      "lines": [
+        "Now you know what",
+        "belongs in the corners."
+      ],
+      "visual": {
+        "type": "statement"
+      }
+    }
+  ]
+}

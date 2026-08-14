@@ -1,0 +1,14 @@
+appId: com.autovid.studio
+productName: autovid studio
+directories:
+  output: dist-app
+files:
+  - out/**/*
+  - package.json
+extraResources:
+  - from: src
+    to: engine
+  - from: public
+    to: public
+win:
+  target: nsis
